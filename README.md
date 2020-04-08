@@ -20,4 +20,12 @@ startup-script                 1/1     Running            0          2m
 
 https://github.com/kubernetes/kubernetes/issues/74839
 
+## Fix
 
+use the damon.yaml deamonset
+
+## Links
+
+https://kubernetes.io/blog/2019/03/29/kube-proxy-subtleties-debugging-an-intermittent-connection-reset/
+https://github.com/kubernetes/kubernetes/issues/45976
+https://github.com/tcarmet/k8s-connection-reset
